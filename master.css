@@ -1,0 +1,27 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #0B5CDE;
+}
+
+h2 {
+    color: #0083F5;
+}
+
+h3 {
+    color: #0B9BDE;
+}
+
+h4 {
+    color: #00D3FF;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: black;
+}
