@@ -4,28 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="component.css">
     <title>导航页</title>
 </head>
 
 <body>
-    <h1>网页导航</h1>
+    <header>
+        <h1>网页导航</h1>
+        <div id="header-nav">
+            <div id="nav-item">
+                <a href="#section1">资料</a> 
+            </div>
+            <div id="nav-item">
+                <a href="#section2">工具</a>
+            </div>
+            <div id="nav-item">
+                <a href="#section3">博客社区</a>
+            </div>
+            <div id="nav-item">
+                <a href="#section4">教程</a>
+            </div>
+            <div id="nav-item">
+                <a href="#section5">参考网站</a>
+            </div>
+        </div>
+    </header>
 
-    <h2>资料</h2>
+    <h2 id="section1">资料</h2>
     <a href="../文档/book/" target="_blank">书籍</a><br />
-    <h2>工具</h2>
+    <h2 id="section2">工具</h2>
     <h3>视觉设计</h3>
     <a href="https://color.adobe.com/zh/create/color-wheel" target="_blank">Adobe Color</a><br />
     <a href="https://fonts.adobe.com/fonts" target="_blank">Adobe Font</a><br />
     <h3>在线编辑器</h3>
     <a href="https://onecompiler.com/" target="_blank">One Compiler</a><br />
 
-    <h2>博客社区</h2>
+    <h2 id="section3">博客社区</h2>
     <h3>学习网站</h3>
     <a href="https://chinese.freecodecamp.org/learn" target="_blank">freeCodeCamp</a><br />
     <a href="https://study.163.com/" target="_blank">网易云课堂</a><br />
     <a href="https://www.wps.cn/learning/" target="_blank">WPS 学堂</a><br />
 
-    <h2>教程</h2>
+    <h2 id="section4">教程</h2>
     <h3>Web</h3>
     <a href="https://chinese.freecodecamp.org/learn/responsive-web-design/" target="_blank">响应式网页设计</a><br>
     <a href="https://chinese.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
@@ -40,7 +60,7 @@
         target="_blank">Visio 培训</a><br>
 
 
-    <h2>参考网站</h2>
+    <h2 id="section5">参考网站</h2>
     <h3>Web</h3>
     <a href="https://developer.mozilla.org" target="_blank">MDN Web文档</a><br>
     <h3>C++/C</h3>
