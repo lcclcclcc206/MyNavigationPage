@@ -1,15 +1,22 @@
 body {
-    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
     line-height: 1.5;
-    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
 }
 
 h1 {
     color: #0B5CDE;
+    text-align: center;
 }
 
 h2 {
+    margin-top: 0;
     color: #0083F5;
 }
 
@@ -19,13 +26,4 @@ h3 {
 
 h4 {
     color: #00D3FF;
-}
-
-a, a:hover {
-    text-decoration: none;
-    color: black;
-}
-
-div {
-    
 }
