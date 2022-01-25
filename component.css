@@ -2,15 +2,28 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    border: 3px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 #nav-content a,
 #nav-content a:hover {
     text-decoration: none;
     color: black;
+}
+
+#gotop-button {
+    position:fixed;
+    width: 32px;
+    height: 32px;
+    right: 16px;
+    bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.19);
+    background-color: white;
+}
+
+#gotop-button:hover {
+    background-color: rgb(199, 199, 199);
 }

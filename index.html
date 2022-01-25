@@ -11,8 +11,9 @@
 
 <body>
     <header>
+        <div id="top-anchor"></div>
         <h1>网页导航</h1>
-        <div id="header-nav">
+        <div id="header-nav" class="box-border">
             <div class="header-link">
                 <a href="#section1">资料</a>
             </div>
@@ -32,21 +33,22 @@
     </header>
 
     <div id="nav-content">
-        <div class="nav-section">
+        <div class="box-border">
             <h2 id="section1">资料</h2>
             <a href="../文档/book/" target="_blank">书籍</a><br />
         </div>
 
-        <div class="nav-section">
+        <div class="box-border">
             <h2 id="section2">工具</h2>
             <h3>视觉设计</h3>
-            <a href="https://color.adobe.com/zh/create/color-wheel" target="_blank">Adobe Color</a><br />
-            <a href="https://fonts.adobe.com/fonts" target="_blank">Adobe Font</a><br />
+            <a href="https://color.adobe.com/zh/create/color-wheel" target="_blank">Adobe 颜色</a><br />
+            <a href="https://fonts.adobe.com/fonts" target="_blank">Adobe 字体</a><br />
+            <a href="https://www.iconfont.cn/" target="_blank">阿里巴巴矢量图标库</a><br />
             <h3>在线编辑器</h3>
             <a href="https://onecompiler.com/" target="_blank">One Compiler</a><br />
         </div>
 
-        <div class="nav-section">
+        <div class="box-border">
             <h2 id="section3">博客社区</h2>
             <h3>学习网站</h3>
             <a href="https://chinese.freecodecamp.org/learn" target="_blank">freeCodeCamp</a><br />
@@ -54,7 +56,7 @@
             <a href="https://www.wps.cn/learning/" target="_blank">WPS 学堂</a><br />
         </div>
 
-        <div class="nav-section">
+        <div class="box-border">
             <h2 id="section4">教程</h2>
             <h3>Web</h3>
             <a href="https://chinese.freecodecamp.org/learn/responsive-web-design/" target="_blank">响应式网页设计</a><br>
@@ -71,7 +73,7 @@
                 target="_blank">Visio 培训</a><br>
         </div>
 
-        <div class="nav-section">
+        <div class="box-border">
             <h2 id="section5">参考网站</h2>
             <h3>Web</h3>
             <a href="https://developer.mozilla.org" target="_blank">MDN Web文档</a><br>
@@ -96,9 +98,22 @@
             <h3>WPS</h3>
             <a href="https://open.wps.cn/docs/introduce/register" target="_blank">WPS 开放平台</a><br>
         </div>
-
     </div>
 
+    <div id="gotop-button" onclick="gotop()">
+        <svg t="1643106392197" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            p-id="2455" width="128" height="128">
+            <path
+                d="M904 692c0 8.189-3.124 16.379-9.372 22.628-12.497 12.496-32.759 12.496-45.256 0L512 377.255 174.628 714.628c-12.497 12.496-32.758 12.496-45.255 0-12.497-12.498-12.497-32.758 0-45.256l360-360c12.497-12.496 32.758-12.496 45.255 0l360 360C900.876 675.621 904 683.811 904 692z"
+                fill="" p-id="2456"></path>
+        </svg>
+    </div>
 </body>
+
+<script>
+    function gotop() {
+        document.getElementById("top-anchor").scrollIntoView();
+    }
+</script>
 
 </html>
