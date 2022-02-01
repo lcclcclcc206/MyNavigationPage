@@ -12,19 +12,19 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    color: #0B5CDE;
+    color: #0045FF;
     text-align: center;
 }
 
 h2 {
     margin-top: 0;
-    color: #0083F5;
+    color: #0095FF;
 }
 
 h3 {
-    color: #0B9BDE;
+    color: #00C3FF;
 }
 
 h4 {
-    color: #00D3FF;
+    color: #00F1FF;
 }
