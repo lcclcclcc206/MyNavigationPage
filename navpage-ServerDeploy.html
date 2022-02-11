@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/master.css">
+    <link rel="stylesheet" href="style/component.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>导航页</title>
+</head>
+
+<body>
+    <header>
+        <div id="top-anchor"></div>
+        <h1>服务器部署指南</h1>
+        <div id="header-nav" class="box-border">
+            <!-- 
+            <div class="header-link">
+                <a href="#section">导航分区</a>
+            </div>
+             -->
+            <div class="header-link">
+                <a href="#section1">导航</a>
+            </div>
+            <div class="header-link">
+                <a href="#section2">下载</a>
+            </div>
+            <div class="header-link">
+                <a href="#section3">教程</a>
+            </div>
+            <div class="header-link">
+                <a href="#section4">网络运维</a>
+            </div>
+            <div class="header-link">
+                <a href="#section-last">参考</a>
+            </div>
+        </div>
+    </header>
+
+    <div id="nav-content">
+        <!-- 
+        <div class="box-border">
+            <h2 id="section">分区名字</h2>
+            <a href="#" target="_blank">链接名</a><br />
+        </div>
+         -->
+        <div class="box-border">
+            <h2 id="section1">导航</h2>
+            <h3>云服务平台</h3>
+            <a href="https://azure.microsoft.com/zh-cn/" target="_blank">Microsoft Azure | 云计算服务</a><br />
+            <a href="https://cloud.tencent.com/" target="_blank">腾讯云</a><br />
+            <a href="https://cn.aliyun.com/" target="_blank">阿里云</a><br />
+            <a href="https://www.huaweicloud.com/" target="_blank">华为云</a><br />
+        </div>
+        <div class="box-border">
+            <h2 id="section2">下载</h2>
+            <h3>服务器操作系统</h3>
+            <a href="https://www.microsoft.com/zh-cn/windows-server/" target="_blank">Windows Server</a><br />
+            <a href="https://www.kali.org/get-kali/" target="_blank">Kali Linux</a><br />
+        </div>
+        <div class="box-border">
+            <h2 id="section3">教程</h2>
+            <h3>Windows</h3>
+            <a href="https://docs.microsoft.com/zh-cn/learn/paths/windows-server-deployment-configuration-administration/"
+                target="_blank">Windows Server 部署、配置和管理</a><br />
+            <a href="https://docs.microsoft.com/zh-cn/learn/paths/windows-server-file-servers-storage-management/"
+                target="_blank">Windows Server 文件服务器和存储管理</a><br />
+            <a href="https://docs.microsoft.com/zh-cn/learn/paths/windows-server-network-infrastructure/"
+                target="_blank">Windows Server 网络基础结构</a><br />
+        </div>
+        <div class="box-border">
+            <h2 id="section4">网络运维</h2>
+            <a href="https://www.linuxidc.com/Linux/2016-09/135521.htm" target="_blank">VMware虚拟机三种网络模式详解</a><br />
+            <a href="https://study.163.com/course/introduction.htm?courseId=1211633807#" target="_blank">网络安全应急响应技术实践</a><br />
+        </div>
+        <div class="box-border">
+            <h2 id="section-last">参考</h2>
+            <a href="https://docs.microsoft.com/zh-cn/windows-server/" target="_blank">Windows Server 文档</a><br />
+            <a href="https://www.kali.org/docs/" target="_blank">Kali Docs</a><br />
+        </div>
+    </div>
+
+    <div id="home-button" onclick="gohome()">
+        <svg t="1643730871643" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            p-id="3549" width="128" height="128">
+            <path
+                d="M267.168 454.624v316.48h152V598.224c0-6.144 4.992-11.12 11.136-11.12h169.728c6.16 0 11.136 4.976 11.136 11.12v172.88h136V453.6l-239.36-188.848-240.64 189.856z m-48 37.872l-39.36 31.04a16 16 0 0 1-22.464-2.656l-9.904-12.56a16 16 0 0 1 2.656-22.464l347.792-274.416a16 16 0 0 1 19.84 0l347.792 274.4a16 16 0 0 1 2.656 22.48l-9.92 12.56a16 16 0 0 1-22.464 2.656l-40.624-32.048v292.48a35.136 35.136 0 0 1-35.136 35.136H254.304a35.136 35.136 0 0 1-35.136-35.136V492.496z m248 270.608h96v-128h-96v128z"
+                p-id="3550"></path>
+        </svg>
+    </div>
+
+    <div id="gotop-button" onclick="gotop()">
+        <svg t="1643106392197" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            p-id="2455" width="128" height="128">
+            <path
+                d="M904 692c0 8.189-3.124 16.379-9.372 22.628-12.497 12.496-32.759 12.496-45.256 0L512 377.255 174.628 714.628c-12.497 12.496-32.758 12.496-45.255 0-12.497-12.498-12.497-32.758 0-45.256l360-360c12.497-12.496 32.758-12.496 45.255 0l360 360C900.876 675.621 904 683.811 904 692z"
+                fill="" p-id="2456"></path>
+        </svg>
+    </div>
+</body>
+
+<script>
+    function gotop() {
+        document.getElementById("top-anchor").scrollIntoView();
+    }
+    function gohome() {
+        location.href = "index.html";
+    }
+</script>
+
+</html>
