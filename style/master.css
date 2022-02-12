@@ -28,3 +28,15 @@ h3 {
 h4 {
     color: #00F1FF;
 }
+
+footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a,
+footer a:hover {
+    text-decoration: none;
+    color: gray;
+}
